@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- Codificación de caracteres -->
+  <meta charset="UTF-8">
+
+  <!-- Título que aparece en la pestaña del navegador -->
+  <title>Galería Interactiva</title>
+
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Título principal de la página -->
+  <h1>Galería de Imágenes Interactiva</h1>
+
+  <!-- Contenedor de controles -->
+  <div class="controls">
+
+    <!-- Campo para ingresar la URL de la imagen -->
+    <input 
+      type="url" 
+      id="imageUrl" 
+      placeholder="Pega la URL de la imagen">
+
+    <!-- Botón para agregar una imagen -->
+    <button id="addImage">Agregar Imagen</button>
+
+    <!-- Botón para eliminar la imagen seleccionada -->
+    <button id="deleteImage">Eliminar Imagen Seleccionada</button>
+
+  </div>
+
+  <!-- Contenedor donde se mostrarán las imágenes -->
+  <div id="gallery" class="gallery"></div>
+
+  <!-- Enlace al archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
